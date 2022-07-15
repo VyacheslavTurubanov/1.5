@@ -1,1 +1,17 @@
-.read-more-btn {    position: relative;    border: none;    background: none;    cursor: pointer;}.read-more-btn::before {    content: '';    background-image: url("./img/expand.svg");    background-repeat: no-repeat;    width: 24px;    height: 24px;    position: absolute;    left: -20px;    top: -2px;}
+.read-more-btn {
+    position: relative;
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+
+.read-more-btn::after {
+    content: '';
+    background-image: url("../img/expand.svg");
+    background-repeat: no-repeat;
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    left: 20px;
+    top: 2px;
+}
