@@ -5,13 +5,13 @@
     cursor: pointer;
 }
 
-.read-more-btn::after {
+.read-more-btn::before {
     content: '';
     background-image: url("../img/expand.svg");
     background-repeat: no-repeat;
     width: 24px;
     height: 24px;
     position: absolute;
-    left: 20px;
-    top: 2px;
+    left: -20px;
+    top: -2px;
 }
