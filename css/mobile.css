@@ -1,5 +1,99 @@
-.read-more-btn {
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    font-family: TTLakes, Arial, sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    min-width: 320px;
+}
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+    background-color: #F2F2F2;
+}
+
+.subheading-wrapper {
+    padding: 16px;
+    background-color: white;
+}
+
+.subheading {
+    font-family: 'TT Lakes';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.2px;
+    text-transform: uppercase;
+    color: #7E7E82;
+}
+
+.brands-list-wrapper {
+
+    padding: 16px 2px 66px 16px;
+}
+
+.brands-list {
+    display: flex;
+    overflow-x: hidden;
+
+}
+
+.brands-list--margin {
+    margin-bottom: 24px;
+}
+
+.brands-list__item {
+    display: flex;
     position: relative;
+}
+
+.brands-list__item:not(:last-child) {
+    margin-right: 16px;
+}
+
+.brands-list__image {
+
+}
+
+.brands-list__link {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 240px;
+    height: 72px;
+    padding-left: 16px;
+    padding-right: 16px;
+    background: #FFFFFF;
+    border: 1px solid #EAEAEA;
+    border-radius: 6px;
+}
+
+.brands-list__link::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1;
+}
+
+.go-icon {
+    z-index: 1;
+}
+
+.read-more-btn {
+    display: none;
+    position: relative;
+    margin-left: 2%;
     border: none;
     background: none;
     cursor: pointer;
