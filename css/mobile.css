@@ -37,6 +37,7 @@ body {
 
 .brands-list-wrapper {
     padding: 16px 2px 66px 16px;
+    overflow-x: hidden;
 }
 
 .swiper-pagination {
@@ -55,7 +56,7 @@ body {
 
 .brands-list {
     /*display: flex;*/
-    overflow-x: hidden;
+    /*overflow-x: hidden;*/
 }
 
 .brands-list--margin {
